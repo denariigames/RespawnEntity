@@ -41,7 +41,7 @@ namespace MultiplayerARPG
 				return;
 			}
 
-			Entity.RespawnMapName = Entity.RespawnMapName;
+			Entity.RespawnMapName = Entity.CurrentMapName;
 			Entity.RespawnPosition = Entity.CurrentPosition;
 			GameInstance.ServerGameMessageHandlers.SendGameMessage(ConnectionId, UITextKeys.UI_RESPAWN_BIND_SUCCESS);
 #endif
