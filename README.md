@@ -4,9 +4,11 @@
 
 Addon for [MMORPG Kit](https://assetstore.unity.com/packages/templates/systems/mmorpg-kit-2d-3d-survival-110188) provides custom BuildingEntity that enables players to set their respawn point.
 
+Kit respawn is static and set by map or faction. RepawnEntity introduces gameplay common in many MMOs, enabling players to set their own respawn point by interacting with an object.
+
 ### Setup
 
-1. edit Language.cs and add the following:
+1. **(Core edit)** edit Language.cs and add the following:
 
 ```
 public enum UITextKeys : ushort
